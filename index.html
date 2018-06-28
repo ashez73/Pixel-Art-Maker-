@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Pawel's Pixel Art Maker!</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Pawel's Pixel Art Maker</h1>
+    <h2>Choose Grid Size</h2>
+<div>
+        Grid Height:
+        <input type="number" id="input_height" name="height" min="10" max="30"value="15">
+        Grid Width:
+        <input type="number" id="input_width" name="width" min="10" max="30" value="15">
+        <button type="button" id="submitButton">CONFIRM</button>
+</div>
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+    <span class ="invis"><h2>...and have fun!</h2></span>
+    <p><span class ="invis">hold left mouse button to paint, erase with right mouse button</span></p>
+    <table class="center" id="pixel_canvas"></table>
+    <script src="designs.js"></script>
+</body>
+</html>
